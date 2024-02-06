@@ -14,7 +14,10 @@ display: flex;
 gap: 50px;
 align-items: center;
 
-
+@media(max-width:470px){
+    flex-direction: column;
+    gap: 0;
+}
 `
 
 
