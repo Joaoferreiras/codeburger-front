@@ -30,9 +30,9 @@ export const Header = () => {
                 <PageLink onClick={() => navigate("/produtos")} isActive={pathname.includes("produtos")}  > Ver produtos </PageLink>
             </ContainerLeft>
             <ContainerRigth>
-                <PageLink onClick={() => navigate('/carrinho')}><img src={cartImage} alt="logo-carrinho" /></PageLink>
+                <PageLink onClick={() => navigate('/carrinho')} isCart={pathname.includes("/carrinho")}><img src={cartImage} alt="logo-carrinho" /></PageLink>
                 <div className="separator"></div>
-                <PageLink><img src={personImage} alt="logo-pessoa" /></PageLink>
+                <PageLink isCart={pathname.includes("/carrinho")}><img src={personImage} alt="logo-pessoa" /></PageLink>
 
                 <ContainerText>
                     <p>Olá, {userData.name}</p>
