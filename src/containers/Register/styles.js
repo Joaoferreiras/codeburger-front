@@ -9,6 +9,9 @@ display:flex;
 export const Background = styled.img`
 height: 100vh;
 width: 50vw;
+@media(max-width:470px ){
+    display: none;
+}
 
 `
 export const ContainerItens = styled.div`
