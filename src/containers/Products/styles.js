@@ -33,7 +33,10 @@ color: ${props => props.isActiveCategory ? '#EA08E7' : '#313236'};
 
 export const ProductsContainer = styled.div`
 display: grid;
-grid-template-columns: repeat(3,1fr);
+
+@media(min-width: 1000px) {
+    grid-template-columns: repeat(3,1fr);    
+}
 gap: 10px;
 padding: 50px;
 justify-items: center;
