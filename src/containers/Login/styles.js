@@ -66,6 +66,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 14px;
 line-height: 16px;
+white-space: nowrap;
 
 a{
     cursor: pointer;

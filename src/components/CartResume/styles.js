@@ -5,6 +5,7 @@ background-color: #ffffff;
 width:max-content;
 box-shadow:0px 10px 40px rgba(0,0,0,0.03);
 border-radius:20px;
+margin-bottom: 5px;
 
 .container-top{
     display: grid;

@@ -8,14 +8,25 @@ min-height: 100vh;
 
 `
 export const ProductsImage = styled.img`
-width: 100vw;
+width: 100%;
 max-height:60vh;`
 
 export const CategoryMenu = styled.div`
 display: flex;
-justify-content: center;
 gap: 50px;
 margin-top: 20px;
+overflow: scroll;
+margin-left:5px ;
+@media(min-width: 1000px) {
+ 
+   justify-content: center;
+
+}
+@media(max-width: 690px) {
+    overflow: scroll;
+
+}
+
 `
 
 export const CategoryButton = styled.button`

@@ -5,6 +5,9 @@ export const Container = styled.div`
 height:100vh;
 width: 100vw;
 display:flex;
+@media(max-width: 840px){
+      justify-content: center;
+    }
 `
 export const Background = styled.img`
 height: 100vh;
@@ -24,6 +27,8 @@ flex-direction: column;
 justify-content:center;
 align-items: center;
 
+
+
 form{
     display: flex;
     flex-direction:column;
@@ -37,6 +42,9 @@ h1{
     line-height: 28px;
     margin-bottom: 20px;
     color: #000000;
+    @media(max-width: 840px){
+   white-space: nowrap;
+    }
 }
 `
 export const Input = styled.input`
@@ -48,6 +56,11 @@ background: #ffffff;
 box-shadow: 3px 3px 10px rgba(191, 198, 199);
 border-radius: 5px;
 border: ${props => props.error ? '2px solid #cc1717' : 'none'};
+@media(max-width: 840px){
+    width: 290px;
+       background-color: #000000;
+       color: #ffffff;
+    }
 
 `
 export const SignIn = styled.p`
@@ -56,6 +69,7 @@ font-weight: normal;
 font-size: 14px;
 line-height: 16px;
 margin-top: 8px;
+white-space: nowrap;
 
 a{
     cursor: pointer;
