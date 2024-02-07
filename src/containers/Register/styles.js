@@ -9,7 +9,7 @@ display:flex;
 export const Background = styled.img`
 height: 100vh;
 width: 50vw;
-@media(max-width:470px ){
+@media(max-width:840px ){
     display: none;
 }
 
