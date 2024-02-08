@@ -11,6 +11,7 @@ export const CartItems = () => {
 
     return (
         <Container>
+            
             <Header>
                 <p></p>
                 <p>Itens</p>

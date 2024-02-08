@@ -7,11 +7,14 @@ box-shadow:0px 10px 40px rgba(0,0,0,0.03);
 border-radius:20px;
 padding:10px;
 margin: 140px 0;
+max-height: 90vh;
+overflow: scroll;
 @media(max-width:470px){
     display: flex; 
     flex-direction: row;
-    justify-content: center;
-    gap: 5px;
+    max-width: 85vw;
+    gap: 60px;
+    margin: 50px 0;
     }`
 
 export const Header = styled.div`
@@ -25,6 +28,8 @@ padding:10px;
 p{
     font-size: 16px;
     margin-top: 20px;
+
+    
     
 }`
 
@@ -34,9 +39,13 @@ grid-template-columns: repeat(5, 1fr);
 width:max-content;
 padding: 10px;
 grid-gap: 10px 15px;
+
 @media(max-width:470px){
   
     grid-template-columns: repeat(1, 5fr);
+    white-space: nowrap;
+   // overflow: scroll;
+  //  text-overflow: ellipsis;
 
     
 
@@ -60,6 +69,10 @@ p{
     max-width: 2px;
     display: flex;
     justify-content: space-between;
+    @media(max-width:470px){
+  
+  
+}
 }
 
 .quantityContainer{
