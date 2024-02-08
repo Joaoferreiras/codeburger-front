@@ -74,7 +74,7 @@ export const Register = ()=> {
           <Button type='submit' style={{ marginTop: 25, marginBottom: 10 }}>Entrar</Button>
         </form>
 
-        <SignIn>Já possui conta? <Link style={{color: 'black'}} to="/login">Entrar</Link></SignIn>
+        <SignIn>Já possui conta? <Link style={{color: 'black'}} to="/login">Cadastrar</Link></SignIn>
 
       </ContainerItens>
 
